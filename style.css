@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+#quote-box, #checklist-box, #good-luck-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#checklist-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#checklist-box li {
+    margin-bottom: 10px;
+}
+
+#good-luck-box {
+    text-align: center;
+    display:  flow;
+}
+
+#good-luck-box h2 {
+    color: #4CAF50;
+}
+
+#good-luck-box p {
+    color: #555;
+    margin-top: 10px;
+}
+
+#good-luck-box img {
+    width: 70px;
+    margin: 10px;
+}
