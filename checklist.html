@@ -7,17 +7,46 @@
     <title>Positive Quotes Website - Checklist</title>
 </head>
 <body>
-    <div class="container">
-        <div id="checklist-box">
-            <h2>Exam Day Checklist</h2>
-            <form id="checklist-form">
-                <ul>
-                    <li><input type="checkbox" id="item1" onchange="checkChecklist()"> <label for="item1">Item 1</label></li>
-                    <li><input type="checkbox" id="item2" onchange="checkChecklist()"> <label for="item2">Item 2</label></li>
-                    <li><input type="checkbox" id="item3" onchange="checkChecklist()"> <label for="item3">Item 3</label></li>
-                    <!-- Add more checklist items as needed -->
-                </ul>
-            </form>
+    <div>
+        <section>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </section>
+    </div>
+    <div class="container" style="height: 500px; width: 500px; text-align: justify;">
+      
+        <div id="checklist-box"> 
+            <center>
+            <h2>Exam Day Checklist</h2> 
+        </center>
+
+            <div class="inbox" style="cursor: pointer;">
+                <div class="item" onclick="toggleCheckbox(this)">
+                  <input type="checkbox" id="item1" onchange="checkChecklist()">
+                  <p>GATE Admit Card</p>
+                </div>
+                <div class="item" onclick="toggleCheckbox(this)">
+                  <input type="checkbox" id="item2" onchange="checkChecklist()">
+                  <p>Adhaar Card/ Valid ID Proof</p>
+                </div>
+                <div class="item" onclick="toggleCheckbox(this)">
+                  <input type="checkbox" id="item3" onchange="checkChecklist()">
+                  <p>Pen(s)/ Pencil</p>
+                </div>
+                <div class="item" onclick="toggleCheckbox(this)">
+                  <input type="checkbox" id="item4" onchange="checkChecklist()">
+                  <p>Transparent water bottle</p>
+                </div>
+              </div>
+
         </div>
     </div>
 

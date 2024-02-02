@@ -7,13 +7,32 @@
     <title>Positive Quotes Website</title>
 </head>
 <body>
-    <div class="container">
-        <div id="quote-box">
-            <p id="quote-text">Quote 1</p>
-            <button onclick="nextQuote()">Next</button>
-        </div>
-        <a href="animation.html">Animation</a>
+    <div>
+        <section>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </section>
     </div>
+    <div class="container">
+        <div id="quote-box" class="box">
+            <p class="number">1</p>
+            <div class="text">
+            <i class="start-quote fas fa-quote-left"></i>
+            <p id="quote-text" class="quote">Don't watch the clock; <br> do what it does. <br> Keep going.</p>
+            <p id="credit" class="credit">Sam Levenson</p>
+            </div>
+            <button onclick="nextQuote()"  class="button">Next</button>
+        </div>
+    </div>
+    
 
     <script src="script.js"></script>
 </body>
