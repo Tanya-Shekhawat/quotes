@@ -37,3 +37,4 @@ function toggleCheckbox(item) {
     checkbox.checked = !checkbox.checked;
     checkChecklist();
 }
+
