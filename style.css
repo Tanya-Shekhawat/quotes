@@ -21,7 +21,7 @@ body {
 
 /* #quote-box,  */
 #checklist-box, #good-luck-box {
-    background-color: #fff;
+    background-color: mistyrose;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
@@ -234,8 +234,8 @@ span:nth-child(10){
 /* ------------------------- */
 
 :root {
-    --main-color: #643A7A;
-    --secondary-color: #741CAF;
+    --main-color: #171d62;
+    --secondary-color: #151c68;
     --sans: "josefin sans", sans-serif;
   }
 
@@ -332,7 +332,8 @@ span:nth-child(10){
   }
   
   .button {
-    background: #802BBC;
+    /* background: #802BBC; */
+    background: #171d62;
     text-align: center;
     color: #fff;
     padding: 1rem 0;
