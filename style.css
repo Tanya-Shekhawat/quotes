@@ -393,7 +393,8 @@ span:nth-child(10){
     height: 18px;
     width: 20px;
   }
-  .item p {
+  /* .item p,  */
+  .item label {
     margin: 0;
     padding: 20px;
     transition: background 0.2s;
